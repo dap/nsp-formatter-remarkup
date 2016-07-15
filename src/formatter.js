@@ -11,6 +11,7 @@ module.exports = function (err, data, pkgPath) {
 
 	var rows = [];
 	rows.push( pipeWrap( ['Name', 'Installed', 'Patched', 'Include Path', 'More Info'] ) );
+	rows.push( pipeWrap( ['--', '--', '--', '--', '--'] ) );
 
 	data.forEach( function (finding) {
 		rows.push(
