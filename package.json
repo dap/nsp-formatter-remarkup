@@ -7,9 +7,6 @@
     "node": ">=0.10"
   },
   "scripts": {
-    "test": "npm run lint && npm run mocha && npm run nsp",
-    "lint": "eslint .",
-    "mocha": "mocha test/\\*\\*/\\*.spec.js",
     "nsp": "nsp check"
   },
   "repository": {
@@ -19,7 +16,7 @@
   "keywords": [
     "nsp",
     "formatter",
-    "checkstyle"
+    "remarkup"
   ],
   "author": {
     "name": "Darian Anthony Patrick",
@@ -30,13 +27,7 @@
     "url": "https://github.com/dap/nsp-formatter-remarkup/issues"
   },
   "homepage": "https://github.com/dap/nsp-formatter-remarkup#readme",
-  "dependencies": {
-  },
   "devDependencies": {
-    "chai": "3.5.0",
-    "eslint": "2.13.1",
-    "eslint-config-four66": "1.0.0",
-    "mocha": "2.5.3",
-    "nsp": "2.5.0"
+    "nsp": ">=2.5.0"
   }
 }
