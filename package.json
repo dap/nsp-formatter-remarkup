@@ -29,5 +29,8 @@
   "homepage": "https://github.com/dap/nsp-formatter-remarkup#readme",
   "devDependencies": {
     "nsp": ">=2.5.0"
+  },
+  "dependencies": {
+    "cvss": "^1.0.1"
   }
 }
