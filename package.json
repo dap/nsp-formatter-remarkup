@@ -1,6 +1,6 @@
 {
   "name": "nsp-formatter-remarkup",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Summary-style formatter for the Node Security Project, using Remarkup syntax",
   "main": "src/formatter.js",
   "engines": {
