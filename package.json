@@ -3,9 +3,6 @@
   "version": "1.0.2",
   "description": "Summary-style formatter for the Node Security Project, using Remarkup syntax",
   "main": "src/formatter.js",
-  "engines": {
-    "node": ">=0.10"
-  },
   "scripts": {
     "nsp": "nsp check"
   },
@@ -27,10 +24,8 @@
     "url": "https://github.com/dap/nsp-formatter-remarkup/issues"
   },
   "homepage": "https://github.com/dap/nsp-formatter-remarkup#readme",
-  "devDependencies": {
-    "nsp": ">=2.5.0"
-  },
   "dependencies": {
-    "cvss": "^1.0.1"
+    "cvss": "^1.0.1",
+    "nsp": "^2.5.0"
   }
 }
